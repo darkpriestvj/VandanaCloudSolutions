@@ -1,6 +1,6 @@
 function reverseWords(input) {
-  const words = input.split(" ");
-  const reverseWords = words.map((word) => {
+  let words = input.split(" ");
+  let reverseWords = words.map(function (word) {
     return word.split("").reverse().join("");
   });
 
@@ -8,6 +8,6 @@ function reverseWords(input) {
   return output;
 }
 
-const input = "This is a sunny day";
-const reversedString = reverseWords(input);
+var input = "This is a sunny day";
+var reversedString = reverseWords(input);
 console.log(reversedString);

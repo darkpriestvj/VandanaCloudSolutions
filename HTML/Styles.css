@@ -6,9 +6,33 @@ body {
   margin: 0;
 }
 
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 350px; /* Adjust the value as needed to move the form lower */
+}
+h1 {
+  position: absolute;
+  top: 40px; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 .centered-container {
   text-align: center;
 }
 .left-button {
   float: left;
+}
+#submit {
+  margin-top: 20px; /* Adjust the value as needed */
+  background-color: rgb(57, 159, 227);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
